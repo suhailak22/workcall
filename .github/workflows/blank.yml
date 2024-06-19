@@ -1,6 +1,6 @@
 name: workcall
 on:
-  push;
+  push:
 jobs:
   workflow:
     uses: suhailak22/workflowcall/.github/workflows/main.yml@main
