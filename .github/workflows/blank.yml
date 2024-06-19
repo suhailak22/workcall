@@ -4,3 +4,4 @@ on:
 jobs:
   workflow:
     uses: suhailak22/workflowcall/.github/workflows/main.yml@main
+    secrets: inherit
